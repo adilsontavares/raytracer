@@ -127,9 +127,9 @@ public:
 		ColorComp all = _r + _g + _b;
 		ColorComp excess = all - 3;
 
-		Color color(0, 0, 0, _s);
+		Color color(*this);
 
-		if (excess > 0)
+		/*if (excess > 0)
 		{
 			color.setR(_r + excess * (_r / all));
 			color.setG(_g + excess * (_g / all));
@@ -149,7 +149,7 @@ public:
 		if (color.getB() > 1)
 			color.setB(1);
 		else if (color.getB() < 0)
-			color.setB(0);
+			color.setB(0);*/
 
 		return color;
 	}
