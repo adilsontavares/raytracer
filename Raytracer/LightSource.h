@@ -3,26 +3,32 @@
 #include "Vector3.h"
 #include "Color.h"
 
-class Light
+class LightSource
 {
-private:
+protected:
 
 	Vector3 _position;
 	Color _color;
 
-public:
-
-	Light()
+	LightSource()
 	{
 		_position = Vector3::zero();
-		_color = Color(1, 1, 1, 0);
+		_color = Color::white();
 	}
 
-	Light(Vector3 position, Color color)
+	LightSource(Vector3 position)
+		: LightSource()
+	{
+		_position = position;
+	}
+
+	LightSource(Vector3 position, Color color)
 	{
 		_position = position;
 		_color = color;
 	}
+
+public:
 
 	Vector3 getPosition() { return _position; }
 	Color getColor() { return _color; }

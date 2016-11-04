@@ -23,6 +23,11 @@ public:
 
 	Color getColor() { return _color; }
 
+	virtual Vector3 getNormalAt(Vector3 point)
+	{
+		return Vector3::zero();
+	}
+
 	virtual double intersection(Ray ray)
 	{
 		return 0;

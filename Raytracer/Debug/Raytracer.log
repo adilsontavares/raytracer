@@ -1,4 +1,13 @@
 ﻿  main.cpp
-d:\desenvolvimento\github\raytracer\raytracer\main.cpp(72): warning C4018: '<': signed/unsigned mismatch
+d:\desenvolvimento\github\raytracer\raytracer\color.h(92): warning C4244: 'argument': conversion from 'double' to 'ColorComp', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\color.h(122): warning C4244: 'argument': conversion from 'double' to 'ColorComp', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\color.h(134): warning C4244: 'argument': conversion from 'double' to 'ColorComp', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\color.h(135): warning C4244: 'argument': conversion from 'double' to 'ColorComp', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\color.h(136): warning C4244: 'argument': conversion from 'double' to 'ColorComp', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\main.cpp(24): warning C4018: '<': signed/unsigned mismatch
+d:\desenvolvimento\github\raytracer\raytracer\main.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\desenvolvimento\github\raytracer\raytracer\main.cpp(42): warning C4018: '<': signed/unsigned mismatch
+d:\desenvolvimento\github\raytracer\raytracer\main.cpp(45): warning C4018: '<': signed/unsigned mismatch
+d:\desenvolvimento\github\raytracer\raytracer\main.cpp(147): warning C4018: '<': signed/unsigned mismatch
   Raytracer.vcxproj -> C:\Users\Adilson\documents\visual studio 2015\Projects\Raytracer\Debug\Raytracer.exe
   Raytracer.vcxproj -> C:\Users\Adilson\documents\visual studio 2015\Projects\Raytracer\Debug\Raytracer.pdb (Full PDB)

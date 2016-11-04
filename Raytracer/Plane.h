@@ -37,7 +37,7 @@ public:
 	Vector3 getNormal() { return _normal; }
 	double getDistance() { return _distance; }
 	
-	Vector3 getNormalAt(Vector3 point)
+	virtual Vector3 getNormalAt(Vector3 point)
 	{
 		return _normal;
 	}
